@@ -2,17 +2,21 @@
   --background-color: #73dae7;
   --font-family: "Nunito", sans-serif;
 }
+
 h1 {
   font-size: 36px;
   font-weight: 96px;
   padding: 15px;
 }
+h2 {
+  padding: 0;
+}
 h4 {
   padding: 20px;
   text-align: center;
 }
-span {
-  font-weight: bold;
+h5 {
+  margin-top: -15px;
 }
 
 .btn-main {
@@ -25,7 +29,7 @@ span {
   transition: all 250ms ease-in-out;
 }
 
-.landing-page {
+.hero {
   background-color: var(--background-color);
   text-align: center;
   padding: 140px 20px;
