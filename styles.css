@@ -1,0 +1,32 @@
+:root {
+  --background-color: #73dae7;
+  --font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 96px;
+  padding: 15px;
+}
+h4 {
+  padding: 20px;
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+
+.btn-main {
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 70px;
+  text-align: center;
+  transition: all 250ms ease-in-out;
+}
+
+.landing-page {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 140px 20px;
+}
