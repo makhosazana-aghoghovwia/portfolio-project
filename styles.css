@@ -1,14 +1,17 @@
 :root {
-  --background-color: #73dae7;
+  --background-color: #e8d5b7;
   --font-family: "Nunito", sans-serif;
 }
 
 h1 {
+  line-height: 1.5;
   font-size: 36px;
   font-weight: 96px;
   padding: 15px;
 }
 h2 {
+  line-height: 1.2;
+
   padding: 0;
 }
 h4 {
@@ -20,7 +23,7 @@ h5 {
 }
 
 .btn-main {
-  background-color: blueviolet;
+  background-color: #639a67;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -28,9 +31,61 @@ h5 {
   text-align: center;
   transition: all 250ms ease-in-out;
 }
+.btn-main:hover {
+  background-color: #c9af53;
+}
 
+.btn-secondary {
+  background-color: #639a67;
+  border-color: #639a67;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 40px;
+  text-align: center;
+  transition: all 250ms ease-in-out;
+}
+.btn-secondary:hover {
+  background-color: #c9af53;
+  border-color: #c9af5;
+}
 .hero {
   background-color: var(--background-color);
   text-align: center;
   padding: 140px 20px;
+}
+
+.project-padding {
+  padding: 120px 60px;
+}
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  h5,
+  h6 {
+    text-align: center;
+    font-size: smaller;
+    padding: 0;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  .btn-main {
+    padding: 5px 15px;
+  }
+  .project-padding {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
+  .hero p {
+    font-size: smaller;
+  }
 }
