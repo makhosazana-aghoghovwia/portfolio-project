@@ -47,7 +47,7 @@ h5 {
 }
 .btn-secondary:hover {
   background-color: #c9af53;
-  border-color: #c9af5;
+  border-color: #c9af53;
 }
 .hero {
   background-color: var(--background-color);
